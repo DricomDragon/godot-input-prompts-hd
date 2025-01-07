@@ -1,28 +1,12 @@
-[gd_scene load_steps=62 format=3 uid="uid://c8qg5tevuwe3c"]
+[gd_scene load_steps=46 format=3 uid="uid://c8qg5tevuwe3c"]
 
 [ext_resource type="FontFile" uid="uid://b7fn516ji5c5s" path="res://demo/monogram-extended.ttf" id="1_gbm7q"]
-[ext_resource type="Texture2D" uid="uid://b1e23gj3k1klg" path="res://addons/input_prompts/icons/xbox/a.png" id="2_bykxj"]
 [ext_resource type="Script" path="res://addons/input_prompts/action_prompt/action_prompt.gd" id="3_m33nw"]
-[ext_resource type="Texture2D" uid="uid://deib2tqcg5df0" path="res://addons/input_prompts/icons/xbox/x.png" id="4_0xav8"]
 [ext_resource type="Script" path="res://addons/input_prompts/joypad_motion_prompt/joypad_motion_prompt.gd" id="5_dyjlc"]
-[ext_resource type="Texture2D" uid="uid://cah6r1q5x2lte" path="res://addons/input_prompts/icons/generic/left_stick_left.png" id="5_lvfro"]
 [ext_resource type="Script" path="res://addons/input_prompts/joypad_button_prompt/joypad_button_prompt.gd" id="5_u2ush"]
 [ext_resource type="Script" path="res://addons/input_prompts/key_prompt/key_prompt.gd" id="6_u6tgr"]
-[ext_resource type="Texture2D" uid="uid://7wlwep2pflxf" path="res://addons/input_prompts/icons/generic/right_stick_right.png" id="7_gtgme"]
 [ext_resource type="Script" path="res://addons/input_prompts/mouse_button_prompt/mouse_button_prompt.gd" id="8_rlfy8"]
-[ext_resource type="Texture2D" uid="uid://ei5tpuh570dp" path="res://addons/input_prompts/icons/keyboard/esc.png" id="8_xbspm"]
-[ext_resource type="Texture2D" uid="uid://c3lq40m0un2vi" path="res://addons/input_prompts/icons/keyboard/backspace.png" id="10_nvluf"]
-[ext_resource type="Texture2D" uid="uid://d0bfvcxip20dc" path="res://addons/input_prompts/icons/mouse/left.png" id="11_3twym"]
 [ext_resource type="Script" path="res://demo/option_button.gd" id="11_87wem"]
-[ext_resource type="Texture2D" uid="uid://bkgtieikd4hrg" path="res://addons/input_prompts/icons/mouse/wheel_down.png" id="13_wuk6u"]
-[ext_resource type="Texture2D" uid="uid://dv0r0pf7dwijj" path="res://addons/input_prompts/icons/xbox/b.png" id="15_5uf0l"]
-[ext_resource type="Texture2D" uid="uid://c6b88da2bl26p" path="res://addons/input_prompts/icons/xbox/up.png" id="16_6gg7p"]
-[ext_resource type="Texture2D" uid="uid://b381hogwff71v" path="res://addons/input_prompts/icons/xbox/left.png" id="17_rjfq7"]
-[ext_resource type="Texture2D" uid="uid://cq20ry6lvvj3" path="res://addons/input_prompts/icons/xbox/down.png" id="18_2le72"]
-[ext_resource type="Texture2D" uid="uid://bsi68uuv6g8gg" path="res://addons/input_prompts/icons/xbox/right.png" id="19_ik7y4"]
-[ext_resource type="Texture2D" uid="uid://bntsrcd3hjcex" path="res://addons/input_prompts/icons/generic/left_stick_up.png" id="20_rooa2"]
-[ext_resource type="Texture2D" uid="uid://dreirjfpqj40a" path="res://addons/input_prompts/icons/generic/left_stick_down.png" id="21_pcl4n"]
-[ext_resource type="Texture2D" uid="uid://c03r3n0nfrjck" path="res://addons/input_prompts/icons/generic/left_stick_right.png" id="22_lodew"]
 
 [sub_resource type="FontVariation" id="FontVariation_py8b3"]
 base_font = ExtResource("1_gbm7q")
@@ -58,100 +42,100 @@ button_index = 1
 [sub_resource type="InputEventMouseButton" id="InputEventMouseButton_83hcr"]
 button_index = 5
 
-[sub_resource type="InputEventKey" id="InputEventKey_vb8jf"]
+[sub_resource type="InputEventKey" id="InputEventKey_po3xm"]
 keycode = 4194309
 
-[sub_resource type="InputEventKey" id="InputEventKey_waw0a"]
+[sub_resource type="InputEventKey" id="InputEventKey_5t6dt"]
 keycode = 4194310
 
-[sub_resource type="InputEventKey" id="InputEventKey_1ryty"]
+[sub_resource type="InputEventKey" id="InputEventKey_wyi5q"]
 keycode = 32
 unicode = 32
 
-[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_1nreh"]
+[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_ctp1m"]
 
-[sub_resource type="InputEventKey" id="InputEventKey_kmdaw"]
+[sub_resource type="InputEventKey" id="InputEventKey_afmx3"]
 keycode = 4194305
 
-[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_tghlt"]
+[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_jv8oa"]
 button_index = 1
 
-[sub_resource type="InputEventKey" id="InputEventKey_smo63"]
+[sub_resource type="InputEventKey" id="InputEventKey_8vyia"]
 keycode = 4194320
 
-[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_gp63q"]
+[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_40jsi"]
 button_index = 11
 
-[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_15sfv"]
+[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_pa8vr"]
 axis = 1
 axis_value = -1.0
 
-[sub_resource type="InputEventKey" id="InputEventKey_n46br"]
+[sub_resource type="InputEventKey" id="InputEventKey_abaxj"]
 keycode = 4194319
 
-[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_kqb4a"]
+[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_humqk"]
 button_index = 13
 
-[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_idqom"]
+[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_o5j1k"]
 axis_value = -1.0
 
-[sub_resource type="InputEventKey" id="InputEventKey_khkdg"]
+[sub_resource type="InputEventKey" id="InputEventKey_47hk5"]
 keycode = 4194322
 
-[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_ws6ek"]
+[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_d66in"]
 button_index = 12
 
-[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_2lntn"]
+[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_yvb37"]
 axis = 1
 axis_value = 1.0
 
-[sub_resource type="InputEventKey" id="InputEventKey_cbvkj"]
+[sub_resource type="InputEventKey" id="InputEventKey_gex6n"]
 keycode = 4194321
 
-[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_30lb2"]
+[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_t61ps"]
 button_index = 14
 
-[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_4vn33"]
+[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_mbhuk"]
 axis_value = 1.0
 
-[sub_resource type="InputEventKey" id="InputEventKey_xm5op"]
+[sub_resource type="InputEventKey" id="InputEventKey_0ahro"]
 device = -1
 keycode = 87
 unicode = 119
 
-[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_ajxnu"]
+[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_2q5n5"]
 axis = 1
 axis_value = -1.0
 
-[sub_resource type="InputEventKey" id="InputEventKey_xc0vk"]
+[sub_resource type="InputEventKey" id="InputEventKey_hjvea"]
 device = -1
 keycode = 65
 unicode = 97
 
-[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_3d0o7"]
+[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_wrad1"]
 axis_value = -1.0
 
-[sub_resource type="InputEventKey" id="InputEventKey_bv7r3"]
+[sub_resource type="InputEventKey" id="InputEventKey_gthel"]
 device = -1
 keycode = 83
 unicode = 115
 
-[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_28h1p"]
+[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_58n8a"]
 axis = 1
 axis_value = 1.0
 
-[sub_resource type="InputEventKey" id="InputEventKey_5j0eq"]
+[sub_resource type="InputEventKey" id="InputEventKey_7alca"]
 device = -1
 keycode = 68
 unicode = 100
 
-[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_q8cc6"]
+[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_aoefo"]
 axis_value = 1.0
 
-[sub_resource type="InputEventMouseButton" id="InputEventMouseButton_25nnw"]
+[sub_resource type="InputEventMouseButton" id="InputEventMouseButton_y5h33"]
 button_index = 1
 
-[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_hjvac"]
+[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_gaw2v"]
 
 [node name="Demo" type="CenterContainer"]
 anchors_preset = 15
@@ -183,7 +167,6 @@ horizontal_alignment = 2
 
 [node name="JoypadButtonPrompt" type="TextureRect" parent="VBoxContainer/InputEvent/JoypadButtonPrompts"]
 layout_mode = 2
-texture = ExtResource("2_bykxj")
 stretch_mode = 5
 script = ExtResource("5_u2ush")
 button = 0
@@ -192,7 +175,6 @@ events = Array[InputEvent]([SubResource("InputEventJoypadButton_s28pd")])
 
 [node name="JoypadButtonPrompt2" type="TextureRect" parent="VBoxContainer/InputEvent/JoypadButtonPrompts"]
 layout_mode = 2
-texture = ExtResource("4_0xav8")
 stretch_mode = 5
 script = ExtResource("5_u2ush")
 button = 2
@@ -210,7 +192,6 @@ horizontal_alignment = 2
 
 [node name="JoypadMotionPrompt" type="TextureRect" parent="VBoxContainer/InputEvent/JoypadMotionPrompts"]
 layout_mode = 2
-texture = ExtResource("5_lvfro")
 stretch_mode = 5
 script = ExtResource("5_dyjlc")
 axis = 0
@@ -220,7 +201,6 @@ events = Array[InputEvent]([SubResource("InputEventJoypadMotion_mlaax")])
 
 [node name="JoypadMotionPrompt2" type="TextureRect" parent="VBoxContainer/InputEvent/JoypadMotionPrompts"]
 layout_mode = 2
-texture = ExtResource("7_gtgme")
 stretch_mode = 5
 script = ExtResource("5_dyjlc")
 axis = 2
@@ -239,7 +219,6 @@ horizontal_alignment = 2
 
 [node name="KeyPrompt" type="TextureRect" parent="VBoxContainer/InputEvent/KeyPrompts"]
 layout_mode = 2
-texture = ExtResource("8_xbspm")
 stretch_mode = 5
 script = ExtResource("6_u6tgr")
 key = 4194305
@@ -247,7 +226,6 @@ events = Array[InputEvent]([SubResource("InputEventKey_61dna")])
 
 [node name="KeyPrompt2" type="TextureRect" parent="VBoxContainer/InputEvent/KeyPrompts"]
 layout_mode = 2
-texture = ExtResource("10_nvluf")
 stretch_mode = 5
 script = ExtResource("6_u6tgr")
 key = 4194308
@@ -264,7 +242,6 @@ horizontal_alignment = 2
 
 [node name="MouseButtonPrompt" type="TextureRect" parent="VBoxContainer/InputEvent/MouseButtonPrompts"]
 layout_mode = 2
-texture = ExtResource("11_3twym")
 stretch_mode = 5
 script = ExtResource("8_rlfy8")
 button = 1
@@ -272,7 +249,6 @@ events = Array[InputEvent]([SubResource("InputEventMouseButton_h2fso")])
 
 [node name="MouseButtonPrompt2" type="TextureRect" parent="VBoxContainer/InputEvent/MouseButtonPrompts"]
 layout_mode = 2
-texture = ExtResource("13_wuk6u")
 stretch_mode = 5
 script = ExtResource("8_rlfy8")
 button = 5
@@ -297,12 +273,11 @@ horizontal_alignment = 2
 
 [node name="ActionPrompt" type="TextureRect" parent="VBoxContainer/ActionPrompt/ui_accept"]
 layout_mode = 2
-texture = ExtResource("2_bykxj")
 stretch_mode = 5
 script = ExtResource("3_m33nw")
 action = "ui_accept"
 icon = 0
-events = Array[InputEvent]([SubResource("InputEventKey_vb8jf"), SubResource("InputEventKey_waw0a"), SubResource("InputEventKey_1ryty"), SubResource("InputEventJoypadButton_1nreh")])
+events = Array[InputEvent]([SubResource("InputEventKey_po3xm"), SubResource("InputEventKey_5t6dt"), SubResource("InputEventKey_wyi5q"), SubResource("InputEventJoypadButton_ctp1m")])
 
 [node name="ui_cancel" type="HBoxContainer" parent="VBoxContainer/ActionPrompt"]
 layout_mode = 2
@@ -315,12 +290,11 @@ horizontal_alignment = 2
 
 [node name="ActionPrompt" type="TextureRect" parent="VBoxContainer/ActionPrompt/ui_cancel"]
 layout_mode = 2
-texture = ExtResource("15_5uf0l")
 stretch_mode = 5
 script = ExtResource("3_m33nw")
 action = "ui_cancel"
 icon = 0
-events = Array[InputEvent]([SubResource("InputEventKey_kmdaw"), SubResource("InputEventJoypadButton_tghlt")])
+events = Array[InputEvent]([SubResource("InputEventKey_afmx3"), SubResource("InputEventJoypadButton_jv8oa")])
 
 [node name="ui_directions" type="HBoxContainer" parent="VBoxContainer/ActionPrompt"]
 layout_mode = 2
@@ -333,39 +307,35 @@ horizontal_alignment = 2
 
 [node name="ActionPrompt" type="TextureRect" parent="VBoxContainer/ActionPrompt/ui_directions"]
 layout_mode = 2
-texture = ExtResource("16_6gg7p")
 stretch_mode = 5
 script = ExtResource("3_m33nw")
 action = "ui_up"
 icon = 0
-events = Array[InputEvent]([SubResource("InputEventKey_smo63"), SubResource("InputEventJoypadButton_gp63q"), SubResource("InputEventJoypadMotion_15sfv")])
+events = Array[InputEvent]([SubResource("InputEventKey_8vyia"), SubResource("InputEventJoypadButton_40jsi"), SubResource("InputEventJoypadMotion_pa8vr")])
 
 [node name="ActionPrompt2" type="TextureRect" parent="VBoxContainer/ActionPrompt/ui_directions"]
 layout_mode = 2
-texture = ExtResource("17_rjfq7")
 stretch_mode = 5
 script = ExtResource("3_m33nw")
 action = "ui_left"
 icon = 0
-events = Array[InputEvent]([SubResource("InputEventKey_n46br"), SubResource("InputEventJoypadButton_kqb4a"), SubResource("InputEventJoypadMotion_idqom")])
+events = Array[InputEvent]([SubResource("InputEventKey_abaxj"), SubResource("InputEventJoypadButton_humqk"), SubResource("InputEventJoypadMotion_o5j1k")])
 
 [node name="ActionPrompt3" type="TextureRect" parent="VBoxContainer/ActionPrompt/ui_directions"]
 layout_mode = 2
-texture = ExtResource("18_2le72")
 stretch_mode = 5
 script = ExtResource("3_m33nw")
 action = "ui_down"
 icon = 0
-events = Array[InputEvent]([SubResource("InputEventKey_khkdg"), SubResource("InputEventJoypadButton_ws6ek"), SubResource("InputEventJoypadMotion_2lntn")])
+events = Array[InputEvent]([SubResource("InputEventKey_47hk5"), SubResource("InputEventJoypadButton_d66in"), SubResource("InputEventJoypadMotion_yvb37")])
 
 [node name="ActionPrompt4" type="TextureRect" parent="VBoxContainer/ActionPrompt/ui_directions"]
 layout_mode = 2
-texture = ExtResource("19_ik7y4")
 stretch_mode = 5
 script = ExtResource("3_m33nw")
 action = "ui_right"
 icon = 0
-events = Array[InputEvent]([SubResource("InputEventKey_cbvkj"), SubResource("InputEventJoypadButton_30lb2"), SubResource("InputEventJoypadMotion_4vn33")])
+events = Array[InputEvent]([SubResource("InputEventKey_gex6n"), SubResource("InputEventJoypadButton_t61ps"), SubResource("InputEventJoypadMotion_mbhuk")])
 
 [node name="move" type="HBoxContainer" parent="VBoxContainer/ActionPrompt"]
 layout_mode = 2
@@ -378,39 +348,35 @@ horizontal_alignment = 2
 
 [node name="ActionPrompt" type="TextureRect" parent="VBoxContainer/ActionPrompt/move"]
 layout_mode = 2
-texture = ExtResource("20_rooa2")
 stretch_mode = 5
 script = ExtResource("3_m33nw")
 action = "move_up"
 icon = 0
-events = Array[InputEvent]([SubResource("InputEventKey_xm5op"), SubResource("InputEventJoypadMotion_ajxnu")])
+events = Array[InputEvent]([SubResource("InputEventKey_0ahro"), SubResource("InputEventJoypadMotion_2q5n5")])
 
 [node name="ActionPrompt2" type="TextureRect" parent="VBoxContainer/ActionPrompt/move"]
 layout_mode = 2
-texture = ExtResource("5_lvfro")
 stretch_mode = 5
 script = ExtResource("3_m33nw")
 action = "move_left"
 icon = 0
-events = Array[InputEvent]([SubResource("InputEventKey_xc0vk"), SubResource("InputEventJoypadMotion_3d0o7")])
+events = Array[InputEvent]([SubResource("InputEventKey_hjvea"), SubResource("InputEventJoypadMotion_wrad1")])
 
 [node name="ActionPrompt3" type="TextureRect" parent="VBoxContainer/ActionPrompt/move"]
 layout_mode = 2
-texture = ExtResource("21_pcl4n")
 stretch_mode = 5
 script = ExtResource("3_m33nw")
 action = "move_down"
 icon = 0
-events = Array[InputEvent]([SubResource("InputEventKey_bv7r3"), SubResource("InputEventJoypadMotion_28h1p")])
+events = Array[InputEvent]([SubResource("InputEventKey_gthel"), SubResource("InputEventJoypadMotion_58n8a")])
 
 [node name="ActionPrompt4" type="TextureRect" parent="VBoxContainer/ActionPrompt/move"]
 layout_mode = 2
-texture = ExtResource("22_lodew")
 stretch_mode = 5
 script = ExtResource("3_m33nw")
 action = "move_right"
 icon = 0
-events = Array[InputEvent]([SubResource("InputEventKey_5j0eq"), SubResource("InputEventJoypadMotion_q8cc6")])
+events = Array[InputEvent]([SubResource("InputEventKey_7alca"), SubResource("InputEventJoypadMotion_aoefo")])
 
 [node name="interact" type="HBoxContainer" parent="VBoxContainer/ActionPrompt"]
 layout_mode = 2
@@ -423,12 +389,11 @@ horizontal_alignment = 2
 
 [node name="ActionPrompt" type="TextureRect" parent="VBoxContainer/ActionPrompt/interact"]
 layout_mode = 2
-texture = ExtResource("2_bykxj")
 stretch_mode = 5
 script = ExtResource("3_m33nw")
 action = "interact"
 icon = 0
-events = Array[InputEvent]([SubResource("InputEventMouseButton_25nnw"), SubResource("InputEventJoypadButton_hjvac")])
+events = Array[InputEvent]([SubResource("InputEventMouseButton_y5h33"), SubResource("InputEventJoypadButton_gaw2v")])
 
 [node name="Options" type="HBoxContainer" parent="VBoxContainer/ActionPrompt"]
 layout_mode = 2
@@ -441,10 +406,9 @@ horizontal_alignment = 2
 
 [node name="OptionButton" type="OptionButton" parent="VBoxContainer/ActionPrompt/Options"]
 layout_mode = 2
-item_count = 5
 selected = 0
+item_count = 5
 popup/item_0/text = "Automatic"
-popup/item_0/id = 0
 popup/item_1/text = "Xbox"
 popup/item_1/id = 1
 popup/item_2/text = "Sony"
