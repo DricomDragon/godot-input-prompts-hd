@@ -1,0 +1,20 @@
+set TO 'addons/input_prompts/icons/xbox'
+echo "Copy xbox assets from $FROM to $TO"
+cp $FROM/xbox_button_color_a.png $TO/a.png
+cp $FROM/xbox_button_color_b.png $TO/b.png
+cp $FROM/xbox_button_color_x.png $TO/x.png
+cp $FROM/xbox_button_color_y.png $TO/y.png
+cp $FROM/xbox_dpad_round_down.png $TO/down.png
+cp $FROM/xbox_dpad_round_up.png $TO/up.png
+cp $FROM/xbox_dpad_round_left.png $TO/left.png
+cp $FROM/xbox_dpad_round_right.png $TO/right.png
+cp $FROM/xbox_lt.png $TO/left_trigger.png
+cp $FROM/xbox_rt.png $TO/right_trigger.png
+cp $FROM/xbox_lb.png $TO/left_bumper.png
+cp $FROM/xbox_rb.png $TO/right_bumper.png
+cp $FROM/xbox_stick_l_press.png $TO/left_stick.png
+cp $FROM/xbox_stick_r_press.png $TO/right_stick.png
+cp $FROM/xbox_button_menu.png $TO/menu.png
+cp $FROM/xbox_button_view.png $TO/view.png
+cp $FROM/xbox_button_share.png $TO/share.png
+cp $FROM/xbox_guide.png $TO/xbox.png
