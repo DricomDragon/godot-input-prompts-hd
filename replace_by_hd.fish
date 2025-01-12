@@ -170,3 +170,27 @@ cp $FROM_MOUSE/mouse_scroll_down.png $TO_MOUSE/wheel_down.png
 cp $FROM_MOUSE/mouse_wheel_left.png $TO_MOUSE/wheel_left.png
 cp $FROM_MOUSE/mouse_wheel_right.png $TO_MOUSE/wheel_right.png
 cp $FROM_MOUSE/mouse_scroll_up.png $TO_MOUSE/wheel_up.png
+
+# Nintendo
+set FROM_NINTENDO "$FROM/Nintendo Switch/$DEF"
+set TO_NINTENDO "$TO/nintendo"
+
+
+cp $FROM_NINTENDO/switch_button_a.png           $TO_NINTENDO/a.png
+cp $FROM_NINTENDO/switch_button_b.png           $TO_NINTENDO/b.png
+cp $FROM_NINTENDO/switch_button_capture.png     $TO_NINTENDO/capture.png
+cp $FROM_NINTENDO/switch_button_home.png        $TO_NINTENDO/home.png
+cp $FROM_NINTENDO/switch_button_left_stick.png  $TO_NINTENDO/left_stick.png
+cp $FROM_NINTENDO/switch_button_l.png           $TO_NINTENDO/l.png
+cp $FROM_NINTENDO/switch_button_minus.png       $TO_NINTENDO/minus.png
+cp $FROM_NINTENDO/switch_button_plus.png        $TO_NINTENDO/plus.png
+cp $FROM_NINTENDO/switch_button_right_stick.png $TO_NINTENDO/right_stick.png
+cp $FROM_NINTENDO/switch_button_r.png           $TO_NINTENDO/r.png
+cp $FROM_NINTENDO/switch_button_x.png           $TO_NINTENDO/x.png
+cp $FROM_NINTENDO/switch_button_y.png           $TO_NINTENDO/y.png
+cp $FROM_NINTENDO/switch_button_zl.png          $TO_NINTENDO/zl.png
+cp $FROM_NINTENDO/switch_button_zr.png          $TO_NINTENDO/zr.png
+cp $FROM_NINTENDO/switch_dpad_up.png            $TO_NINTENDO/up.png
+cp $FROM_NINTENDO/switch_dpad_down.png          $TO_NINTENDO/down.png
+cp $FROM_NINTENDO/switch_dpad_left.png          $TO_NINTENDO/left.png
+cp $FROM_NINTENDO/switch_dpad_right.png         $TO_NINTENDO/right.png
