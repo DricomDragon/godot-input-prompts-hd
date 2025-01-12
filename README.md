@@ -16,6 +16,9 @@ This repo is a fork of the excellent add-on [Godot Input Prompts](https://github
 
 The code is fully identical to the upstream project; only icons have been updated to use 128×128 icons from the [Kenney Input Prompts pack](https://kenney.nl/assets/input-prompts).
 
+![Old A Xbox icon](logo/old_a.png)
+![New HD A Xbox icon](addons/input_prompts/icons/xbox/a.png)
+
 Disclaimer: not every icon has been updated; icons without match in the HD pack remain low-res. Usually it's OK, since those icons are rarely used.
 
 If you want to contribute, please contribute to the upstream repository directly.
