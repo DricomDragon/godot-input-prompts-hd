@@ -5,6 +5,7 @@ echo "Copy xbox assets from $FROM to $TO"
 # XBox icons
 set FROM_XBOX "$FROM/Xbox Series/$DEF"
 set TO_XBOX "$TO/xbox"
+
 cp $FROM_XBOX/xbox_button_color_a.png $TO_XBOX/a.png
 cp $FROM_XBOX/xbox_button_color_b.png $TO_XBOX/b.png
 cp $FROM_XBOX/xbox_button_color_x.png $TO_XBOX/x.png
@@ -175,7 +176,6 @@ cp $FROM_MOUSE/mouse_scroll_up.png $TO_MOUSE/wheel_up.png
 set FROM_NINTENDO "$FROM/Nintendo Switch/$DEF"
 set TO_NINTENDO "$TO/nintendo"
 
-
 cp $FROM_NINTENDO/switch_button_a.png           $TO_NINTENDO/a.png
 cp $FROM_NINTENDO/switch_button_b.png           $TO_NINTENDO/b.png
 cp $FROM_NINTENDO/switch_button_capture.png     $TO_NINTENDO/capture.png
@@ -194,3 +194,27 @@ cp $FROM_NINTENDO/switch_dpad_up.png            $TO_NINTENDO/up.png
 cp $FROM_NINTENDO/switch_dpad_down.png          $TO_NINTENDO/down.png
 cp $FROM_NINTENDO/switch_dpad_left.png          $TO_NINTENDO/left.png
 cp $FROM_NINTENDO/switch_dpad_right.png         $TO_NINTENDO/right.png
+
+# Sony
+set FROM_SONY "$FROM/PlayStation Series/$DEF"
+set TO_SONY "$TO/sony"
+
+cp $FROM_SONY/playstation_button_color_circle.png $TO_SONY/circle.png
+cp $FROM_SONY/playstation_button_color_cross.png $TO_SONY/cross.png
+cp $FROM_SONY/playstation_button_color_square.png $TO_SONY/square.png
+cp $FROM_SONY/playstation_button_color_triangle.png $TO_SONY/triangle.png
+cp $FROM_SONY/playstation_dpad_up.png $TO_SONY/up.png
+cp $FROM_SONY/playstation_dpad_down.png $TO_SONY/down.png
+cp $FROM_SONY/playstation_dpad_left.png $TO_SONY/left.png
+cp $FROM_SONY/playstation_dpad_right.png $TO_SONY/right.png
+cp $FROM_SONY/playstation_trigger_l1.png $TO_SONY/l1.png
+cp $FROM_SONY/playstation_trigger_l2.png $TO_SONY/l2.png
+cp $FROM_SONY/playstation_trigger_r1.png $TO_SONY/r1.png
+cp $FROM_SONY/playstation_trigger_r2.png $TO_SONY/r2.png
+cp $FROM_SONY/playstation_stick_l_press.png $TO_SONY/left_stick.png
+cp $FROM_SONY/playstation_stick_r_press.png $TO_SONY/right_stick.png
+cp $FROM_SONY/playstation5_button_create_alternative.png $TO_SONY/ps.png
+cp $FROM_SONY/playstation_button_microphone.png $TO_SONY/microphone.png
+cp $FROM_SONY/playstation3_button_select.png $TO_SONY/select.png
+cp $FROM_SONY/playstation3_button_start.png $TO_SONY/start.png
+cp $FROM_SONY/playstation4_touchpad_touch.png $TO_SONY/touchpad.png
