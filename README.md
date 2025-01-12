@@ -1,4 +1,4 @@
-# Godot Input Prompts
+# Godot Input Prompts HD
 
 New nodes providing easy-to-use input prompts.
 
@@ -9,6 +9,21 @@ The current version supports the following icons:
 - Nintendo Switch
 
 Please note that the PlayStation icons must be completed manually in an editor.
+
+## HD Fork
+
+This repo is a fork of the excellent add-on [Godot Input Prompts](https://github.com/Pennycook/godot-input-prompts).
+
+The code is fully identical to the upstream project; only icons have been updated to use 128×128 icons from the [Kenney Input Prompts pack](https://kenney.nl/assets/input-prompts).
+
+Disclaimer: not every icon has been updated; icons without match in the HD pack remain low-res. Usually it's OK, since those icons are rarely used.
+
+If you want to contribute, please contribute to the upstream repository directly.
+
+If you like this work and want to make a donation, please do it directly to the original authors:
+
+- [Donate to Kenney](https://kenney.nl/donate)
+- [Buy a coffee to Pennycook](https://ko-fi.com/pennycook)
 
 ## Installation
 
