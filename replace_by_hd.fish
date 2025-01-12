@@ -103,7 +103,7 @@ cp $FROM_KEY/keyboard_i.png $TO_KEY/i.png
 cp $FROM_KEY/keyboard_j.png $TO_KEY/j.png
 cp $FROM_KEY/keyboard_k.png $TO_KEY/k.png
 cp $FROM_KEY/keyboard_bracket_open.png $TO_KEY/left_brace.png
-#cp $FROM_KEY/keyboard_bracket_open.png $TO_KEY/left_bracket.png
+cp $FROM_KEY/keyboard_left_bracket.png $TO_KEY/left_bracket.png
 cp $FROM_KEY/keyboard_left_paren.png $TO_KEY/left_paren.png
 cp $FROM_KEY/keyboard_arrow_left.png $TO_KEY/left.png
 cp $FROM_KEY/keyboard_bracket_less.png $TO_KEY/less.png
@@ -136,7 +136,7 @@ cp $FROM_KEY/keyboard_q.png $TO_KEY/q.png
 cp $FROM_KEY/keyboard_question.png $TO_KEY/question.png
 cp $FROM_KEY/keyboard_quote.png $TO_KEY/quote.png
 cp $FROM_KEY/keyboard_bracket_close.png $TO_KEY/right_brace.png
-#cp $FROM_KEY/keyboard_bracket_close.png $TO_KEY/right_bracket.png
+cp $FROM_KEY/keyboard_right_bracket.png $TO_KEY/right_bracket.png
 cp $FROM_KEY/keyboard_right_paren.png $TO_KEY/right_paren.png
 cp $FROM_KEY/keyboard_arrow_right.png $TO_KEY/right.png
 cp $FROM_KEY/keyboard_r.png $TO_KEY/r.png
@@ -157,3 +157,16 @@ cp $FROM_KEY/keyboard_w.png $TO_KEY/w.png
 cp $FROM_KEY/keyboard_x.png $TO_KEY/x.png
 cp $FROM_KEY/keyboard_y.png $TO_KEY/y.png
 cp $FROM_KEY/keyboard_z.png $TO_KEY/z.png
+
+
+# Mouse
+set FROM_MOUSE "$FROM/Keyboard & Mouse/$DEF"
+set TO_MOUSE "$TO/mouse"
+
+cp $FROM_MOUSE/mouse_left.png $TO_MOUSE/left.png
+cp $FROM_MOUSE/mouse_scroll.png $TO_MOUSE/middle.png
+cp $FROM_MOUSE/mouse_right.png $TO_MOUSE/right.png
+cp $FROM_MOUSE/mouse_scroll_down.png $TO_MOUSE/wheel_down.png
+cp $FROM_MOUSE/mouse_wheel_left.png $TO_MOUSE/wheel_left.png
+cp $FROM_MOUSE/mouse_wheel_right.png $TO_MOUSE/wheel_right.png
+cp $FROM_MOUSE/mouse_scroll_up.png $TO_MOUSE/wheel_up.png
